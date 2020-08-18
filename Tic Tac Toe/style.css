@@ -1,0 +1,58 @@
+*{box-sizing: border-box}
+
+.container{
+    width: 300px;
+    overflow: hidden;
+    margin: 50px auto 0 auto;
+}    
+.container span{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-size: 25px;
+    background:#81e7bc;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container .box{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: all .25s ease-in-out;
+    font-family: sans-serif; 
+    font-size: 85px;
+    text-align: center;
+    line-height: 100px; 
+    cursor: pointer;
+}
+
+.container .box:hover{
+    background: rgba(10,10,10,0.5);
+      color: #fff
+}
+       
+button{
+    background: #81e7bc;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer; 
+    width: 200px;
+    height: 40px; 
+    font-size: 22px;
+    display: block;
+    margin: 10px auto
+}      
+
+.win{
+    background: #59dd55; color: #fff
+}
+h1{
+    text-align: center;
+}
